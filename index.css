@@ -1,0 +1,124 @@
+.navbar-collapse {
+    text-align: right;
+    
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+}
+.navbar{
+    background:linear-gradient(to right,#194673 100%,#f5f1d7);
+}
+.navbar .navbar-brand {
+    color: white; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar .navbar-brand:hover {
+    color: white; 
+    font-family: 'Roboto Mono', monospace;
+}
+.orange{
+    background: linear-gradient(to right,#68948f 40%,#f5f1d7);
+    color: white;
+    text-align: center;
+}
+.j_blue{
+background-color: #194673;
+}
+
+.bg-light{
+    background-color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #33bdb8;;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #33bdb8;;
+}
+@media (min-width: 992px) { 
+    body{
+        background-color:purple;
+    }
+    .navbar-nav .nav-item {
+        margin-top: 50px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 3rem;
+        line-height: 1;
+        white-space: nowrap;
+    }
+    .jumbotron .date{
+       color: orange;
+       font-weight: bold;
+       font-size: 1rem;
+    }
+ }
+@media (max-width: 992px) { 
+    body{
+        background-color: red;
+    }
+    .navbar-nav .nav-item {
+        margin-top: 10px;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 3rem;
+        line-height: 1;
+        white-space: nowrap;
+    }
+    .jumbotron .date{
+       color: orange;
+       font-weight: bold;
+       font-size: 1rem;
+    }
+}
+
+ @media (max-width: 768px){
+     body{
+         background-color: orange;
+     }
+
+     .navbar-nav .nav-item {
+        margin-top: 10px;
+    }
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 3rem;
+        line-height: 1;
+        white-space: nowrap;
+    }
+    .jumbotron .date{
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+     }
+
+ }
+
+ @media (max-width: 576px) { 
+     body{
+         background-color: brown;
+     }
+  }
+/* Section Under The Header Section Of Our Website */
+ /* .jumbotron {
+    backgroun: linear-gradient(to right,#68948f 40%,#f5f1d7);
+ } */
