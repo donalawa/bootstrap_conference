@@ -1,0 +1,31 @@
+.name {
+	font-size: 24px;
+	font-weight: bold;
+}
+.location {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contact {
+	font-weight: bold;
+}
+
+iframe {
+	height: 300px;
+	width: 400px;
+}
+
+@media (max-width: 991px) {
+
+	.left{
+		text-align: center;
+	}
+
+	iframe {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+}

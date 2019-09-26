@@ -61,7 +61,7 @@
 
 @media (min-width: 992px) { 
     body{
-        background-color:purple;
+        /*background-color:purple;*/
     }
     .navbar-nav .nav-item {
         margin-top: 50px;
@@ -100,9 +100,9 @@
 			color: orange;
 		}
  }
-@media (max-width: 1199px){
+@media (max-width: 1198px){
 	body{
-		background-color: brown;
+		/*background-color: brown;*/
 	}
 
 	ul {
@@ -139,7 +139,7 @@
 
 @media (max-width: 991px) {
 	body{
-		background-color: yellow;
+		/*background-color: yellow;*/
 	}
 
 	ul {
@@ -186,7 +186,7 @@
 
 @media (max-width: 767px) {
 	body{
-		background-color: aqua;
+		/*background-color: aqua;*/
 	}
 
 	ul {
@@ -240,7 +240,7 @@
 
 @media (max-width: 574px){
 		body{
-		background-color: red;
+		/*background-color: red;*/
 	}
 	.never{
 		display: block;
@@ -282,3 +282,20 @@
 .back_all{
 	background-color: #194673;
 }
+
+
+
+@media (max-width: 360px) {
+	#right_f{
+ 	align-self: center;
+ 	float: none;
+ 	margin-left: 0px;
+ }
+
+ .container .right_f ul li {
+				display: inline-block;
+				margin-left: 5px !important;
+				font-size: 15px;;
+			}
+}
+
