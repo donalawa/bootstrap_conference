@@ -1527,6 +1527,7 @@ pre code {
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
+
 }
 
 .table tbody + tbody {
@@ -1539,8 +1540,15 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+ /* border: 1px solid #dee2e6;*/
+ border: 1px solid #aaa;
+
 }
+
+.gray {
+  background-color: #ccc;
+}
+
 
 .table-bordered th,
 .table-bordered td {
@@ -7783,6 +7791,7 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+
 }
 
 .fixed-bottom {

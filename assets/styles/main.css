@@ -86,7 +86,7 @@
 		p{
 			position: relative;
 			top: -10px;
-			right: -49%;
+			right: -51%;
 			color: orange;
        		font-weight: bold;
       		font-size: 1rem;
@@ -113,7 +113,7 @@
 		p{
 			position: relative;
 			top: -10px;
-			right: -40%;
+			right: -43%;
 		}
 		.hiden{
 			visibility: hidden;

@@ -1,0 +1,9 @@
+#t_head {
+	background-color: #ccc;
+}
+
+#no_border {
+	border-left: none;
+	border-right:none;
+	border-bottom: 1px solid #ccc;
+}

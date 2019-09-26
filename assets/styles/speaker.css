@@ -1,0 +1,44 @@
+.text-grey{
+  color: #7A7A7A;
+  font-size: 16px;
+}
+
+.s_head {
+	font-size: 24px;
+	color: #535353;
+	font-weight: bold;
+}
+.image_box {
+	border: 2px solid #ccc;
+}
+
+.image_box{
+	text-align: center;
+	margin-top: 40px;
+}
+.image_box .s_head {
+	position: relative;
+	top: -58px;
+}
+
+.image_box img {
+	width: 200px;
+	border-radius: 100px;
+	height: 200px;
+	position: relative;
+	top: -60px;
+}
+
+.s_sub {
+	color: #33BDB8;
+	font-size: 25px;
+}
+
+@media (max-width: 991px) {
+	#right {
+		margin-top: 70px;
+	}
+	.row {
+		text-align: center !important;
+	}
+}
