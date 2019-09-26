@@ -1,0 +1,41 @@
+#footer{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 0px;
+	background: linear-gradient(to right,#68948f 40%,#f5f1d7);
+	margin-top: 40px;
+	
+}
+	
+			.left_f {
+
+				float: left;
+				color: #ccc;
+				margin-top: 20px;
+			}
+			.right_f{
+				float: right;
+				margin-top: 20px;
+				color: white;
+				margin-right: 10px;
+			}
+
+			.container .right_f ul li {
+				display: inline-block;
+				margin-left: 10px;
+			}
+			.container .right_f ul li:hover {
+				color: #33bdb8;
+			}
+
+			a{
+				color: white;
+				text-decoration: none;
+				}
+
+	.active{
+		 color:  #33bdb8;
+	}
+
+
+
