@@ -86,10 +86,10 @@
 		p{
 			position: relative;
 			top: -10px;
-			right: -51%;
+			right: -54%;
 			color: orange;
        		font-weight: bold;
-      		font-size: 1rem;
+      		font-size: 0.75rem;
 		}
 		.hiden{
 			visibility: hidden;
@@ -113,7 +113,7 @@
 		p{
 			position: relative;
 			top: -10px;
-			right: -43%;
+			right: -46%;
 		}
 		.hiden{
 			visibility: hidden;
@@ -240,7 +240,7 @@
 
 @media (max-width: 574px){
 		body{
-		/*background-color: red;*/
+		/* */
 	}
 	.never{
 		display: block;
